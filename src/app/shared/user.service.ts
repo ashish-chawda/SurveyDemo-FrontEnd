@@ -14,7 +14,7 @@ export class UserService {
 
   isUserLoggedIn: boolean = false;
 
-  private readonly rootUrl = "https://localhost:44343/";
+  private readonly rootUrl = "https://localhost:44343/api/";
   constructor(private http: HttpClient) { }
 
   registerUser(user: User, roles: string[]) {
